@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
   </head>
   <body>
+    <h1>現在の日時</h1>
+    <form name="Form">
+      <input type="text" size="35" name="FormTime">
+    </form>
+    <h1>生まれた日は何曜日？</h1>
+    <form name="birthday">生年月日 (西暦)
+      <input type="text" size="4" name="year">年
+      <input type="text" size="2" name="month">月
+      <input type="text" size="2" name="date">日
+      <input type="button" value="確認" onclick="birthdaySet()">
+      <input type="text" size="10" name="week">
+      </form>
     <script src="today.js"></script>
+    <script src="birthday.js"></script>
   </body>
 </html>
